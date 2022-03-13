@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>
+        Search for CountryCode and Holidays</title>
+        <style>
+            body,
+            form{
+                margin: auto;
+                max-width: auto;
+                overflow-x: auto;
+            }
+
+            fieldset{
+                display:flex
+            }
+
+            input#country{
+                flex-grow: auto;
+                margin: auto;
+            }
+        </style>
+</head>
+
+<body>
+    <form action="search" method = "get">
+        <fieldset>
+            <legend>
+                Enter A Country Name
+            </legend>
+            <label for = "country"> Country Name: </label>
+            <input id = "country" name = "country" type = "text"/>
+            <ul>
+                <input type = "submit" value = "Search" />
+            </ul>
+        </fieldset>
+    </form>
+</body>
